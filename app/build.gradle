@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     defaultConfig {
-        applicationId "com.teamproject.app"
+        applicationId "com.team.project.ocr"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1

@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/scanner"
-    tools:context="com.teamproject.app.ocr.Splash_Screen">
+    tools:context="com.team.project.ocr.Splash_Screen">
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#09507E"
-        android:text="Scan  now"
+        android:background="#F14A41"
+        android:text="START OCR"
         android:textColor="#fff"
         android:textStyle="bold" />
 

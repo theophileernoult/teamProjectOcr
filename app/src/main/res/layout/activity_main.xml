@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.teamproject.app.ocr.MainActivity">
+    tools:context="com.team.project.ocr.MainActivity">
 <SurfaceView
     android:id="@+id/surfce_view"
     android:layout_centerHorizontal="true"
@@ -12,16 +12,11 @@
     android:layout_width="match_parent"
     android:layout_above="@+id/text_view"
     android:layout_height="match_parent" />
-
     <TextView
         android:id="@+id/text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="11dp"
-        android:layout_marginRight="11dp"
-        android:layout_marginTop="232dp" />
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
